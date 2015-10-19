@@ -1,0 +1,1 @@
+var dt={datePlace:new Date,today:function(a,t){var e={m:this.datePlace.getMonth()+1,d:this.datePlace.getDate(),y:this.datePlace.getFullYear()};for(data=a.split(","),iLen=data.length,arr=new Array,i=0;i<iLen;i++)arr.push(e[data[i]]);return arr.join(t)}};
