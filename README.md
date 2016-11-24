@@ -1,15 +1,14 @@
 # date.js
 
-Simple Date Javascript display today's date based on the format.
-dt varaible is prototype for date.js
-
-which have today method with two arguements dateformat and separator.
+JavaScript date format display today's date for the given format, dt variable is prototype for data.js
+dateFormat.today method have two arguments for date format & separator.
 
 Example :
 
-< script language="javascript" src="date.js" >< /script >
+```html
+<script language="javascript" src="date-format.js" ></script>
 
-< script language="javascript" >
+<script language="javascript">
 var dateFormat = dt;
 alert(dateFormat.today('y,d,m','/'))
 < /script >
