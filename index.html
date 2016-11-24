@@ -1,0 +1,17 @@
+<html>
+<head>
+	<script language="javascript" src="date-format.min.js" ></script>
+</head>
+<body>
+		
+	<div id="divDate"></div>	
+	
+	<script language="javascript">
+	window.onload = function()
+	{
+		var dateFormat = dt;
+		document.getElementById("divDate").innerHTML = "Today Date is : " +dateFormat.today('y,d,m','/');
+	}
+	</script>
+</body>
+</html>

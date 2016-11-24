@@ -1,4 +1,4 @@
-# date.js
+# date-format.js
 
 JavaScript date format display today's date for the given format, dt variable is prototype for data.js
 dateFormat.today method have two arguments for date format & separator.
