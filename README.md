@@ -1,7 +1,6 @@
 # js-date-format.js
 
-JavaScript date format display today's date for the given format, dt variable is prototype for js-date-format.js
-dateFormat.today method have two arguments for date format & separator.
+The JavaScript date format utility displays today’s date based on the specified format. The dt variable serves as the prototype from js-date-format.js. The dateFormat.today method accepts two parameters: the desired date format and the separator.
 
 Example :
 
